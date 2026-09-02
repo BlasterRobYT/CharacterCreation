@@ -1,5 +1,5 @@
 ## 9/1/26
-(Currently unused)\n
+(Currently unused)
 -Added effects folder and namespace for future use.
 -Added effect names, damage, duration, and description.
 
