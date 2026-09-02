@@ -18,4 +18,4 @@
 
 
 ## Bug fixes
--Axe was named Sword in the Dictionary, corrected.\
+-Axe was named Sword in the Dictionary, corrected.
