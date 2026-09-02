@@ -14,7 +14,7 @@
 -Copied the original README to this project.\
 -Created Types for magicks.\
 -Created Fireball magic.\
--Updated Lightning Bolt Magic.\
+-Updated Lightning Bolt Magic.
 
 
 ## Bug fixes
