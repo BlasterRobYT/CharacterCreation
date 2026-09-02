@@ -1,0 +1,14 @@
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.AssemblyInfoInputs.cache
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.AssemblyInfo.cs
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.csproj.CoreCompileInputs.cache
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\bin\Debug\net10.0\CharacterCreation.exe
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\bin\Debug\net10.0\CharacterCreation.deps.json
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\bin\Debug\net10.0\CharacterCreation.runtimeconfig.json
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\bin\Debug\net10.0\CharacterCreation.dll
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\bin\Debug\net10.0\CharacterCreation.pdb
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.dll
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\refint\CharacterCreation.dll
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.pdb
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.genruntimeconfig.cache
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\ref\CharacterCreation.dll
