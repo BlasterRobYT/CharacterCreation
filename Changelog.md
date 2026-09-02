@@ -1,7 +1,7 @@
 ## 9/1/26
 (Currently unused)\n
--Added effects folder and namespace for future use. \n
--Added effect names, damage, duration, and description. \n
+-Added effects folder and namespace for future use.
+-Added effect names, damage, duration, and description.
 
 
 ## 9/2/26
@@ -9,12 +9,12 @@
 -Changed "Effects" to "Magic".
 
 # Minor
--Created GitHub repo, added project to the repo.\n
--Updated Changelog to markdown(.md)\n
--Copied the original README to this project.\n
--Created Types for magicks.\n
--Created Fireball magic.\n
--Updated Lightning Bolt Magic.\n
+-Created GitHub repo, added project to the repo.
+-Updated Changelog to markdown(.md)
+-Copied the original README to this project.
+-Created Types for magicks.
+-Created Fireball magic.
+-Updated Lightning Bolt Magic.
 
 
 ## Bug fixes
