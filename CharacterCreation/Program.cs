@@ -37,7 +37,7 @@ namespace CharacterCreation
 
                     "Axe", new Weapon()
                     {
-                        Name = "Sword",
+                        Name = "Axe",
                         Damage = 7,
                         Description = "Heavy and sharp."
                     }

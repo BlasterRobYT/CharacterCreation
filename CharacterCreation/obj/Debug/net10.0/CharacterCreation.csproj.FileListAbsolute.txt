@@ -12,3 +12,4 @@ E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\refint
 E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.pdb
 E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.genruntimeconfig.cache
 E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\ref\CharacterCreation.dll
+E:\Coding\Test Apps\CharacterCreation\CharacterCreation\obj\Debug\net10.0\CharacterCreation.sourcelink.json

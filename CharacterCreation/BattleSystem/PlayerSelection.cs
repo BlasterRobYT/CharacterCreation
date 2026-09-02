@@ -1,6 +1,6 @@
 namespace PlayerSelection
 {
-    public class PlayerSelected
+    public class PlayerInput
     {
         public void PlayerSelection()
         {
