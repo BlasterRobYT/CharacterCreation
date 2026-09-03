@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 using CharacterCreation;
 using CharacterCreation.Characters;
 using CharacterCreation.Weapons;
+using Mechanics.PlayerSelection;
+
+
+
 
 namespace CharacterCreation.BattleSystem;
 public class BattleSystem
@@ -13,16 +17,22 @@ public class BattleSystem
     public Character Hero;
     public Character Enemy;
     public Dictionary<string, Weapon> WeaponList { get; set; }
+    static extern PlayerInput_1 PlayerSelection1();
 
     public BattleSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
     {
         Hero = hero;
         Enemy = enemy;
         WeaponList = weapons;
+        
+    
     }
         //Starting the Battle while loop
         public void StartBattle()
         {
+        
+            
+
         Console.Clear();
         Console.WriteLine($"The Battle between {Hero.Name} and {Enemy.Name} BEGINS!");
         WriteColored($"Press \"ENTER\" to start", ConsoleColor.DarkBlue);
@@ -64,7 +74,7 @@ public class BattleSystem
                 if (choice == "1")
                 {
                     Console.WriteLine();
-                    HeroAttack();
+                    PlayerSelection1();
                 }
                 else if (choice == "2")
                 {

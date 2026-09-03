@@ -15,6 +15,8 @@
 -Created Types for magicks.\
 -Created Fireball magic.\
 -Updated Lightning Bolt Magic.
+-Added ToDo
+-Worked on implementing PlayerSelection within BattleSystem from Mechanics.
 
 
 ## Bug fixes
