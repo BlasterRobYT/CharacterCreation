@@ -16,8 +16,8 @@
 -Created Fireball magic.\
 -Updated Lightning Bolt Magic.\
 -Added ToDo\
--Worked on implementing PlayerSelection within BattleSystem from Mechanics.
-
+-Worked on implementing PlayerSelection within BattleSystem from Mechanics.\
+-Added "Roadmap"
 
 ## Bug fixes
 -Axe was named Sword in the Dictionary, corrected.
