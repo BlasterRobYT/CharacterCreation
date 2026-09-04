@@ -125,7 +125,7 @@ namespace CharacterCreation
 
             //Start the Battle System
 
-            BattleSystem.BattleSystem battle = new BattleSystem.BattleSystem(hero, enemy, weaponList);
+            BattleSystem.BattlerSystem battle = new BattleSystem.BattlerSystem(hero, enemy, weaponList);
             battle.StartBattle();
         }
         

@@ -3,13 +3,13 @@ using System.Runtime.CompilerServices;
 using CharacterCreation;
 using CharacterCreation.Characters;
 using CharacterCreation.Weapons;
-using BattleSystem.PlayerSelection;
+using CharacterCreation.PlayerSelection;
 
 
 
 
 namespace CharacterCreation.BattleSystem;
-public class BattleSystem
+public class BattlerSystem
 {
     //Creating the battle system
 
@@ -17,9 +17,8 @@ public class BattleSystem
     public Character Hero;
     public Character Enemy;
     public Dictionary<string, Weapon> WeaponList { get; set; }
-    public PlayerInput PlayerSelection1();
 
-    public BattleSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
+    public BattlerSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
     {
         Hero = hero;
         Enemy = enemy;
@@ -74,7 +73,7 @@ public class BattleSystem
                 if (choice == "1")
                 {
                    while (choice == "1")
-                    PlayerSelection1();
+                    PlayerInput.PlayerSelection1();
                 }
                 else if (choice == "2")
                 {
@@ -121,7 +120,7 @@ public class BattleSystem
 
     
         //The Hero Attack Method
-        private void HeroAttack()
+        public void HeroAttack()
         {
             Random rng = new Random();
             //Declaring damage via Strength
