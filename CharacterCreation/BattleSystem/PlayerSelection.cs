@@ -1,4 +1,4 @@
-namespace Mechanics.PlayerSelection
+namespace BattleSystem.PlayerSelection
 {
     public class PlayerInput
         {
