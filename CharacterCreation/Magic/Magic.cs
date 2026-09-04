@@ -1,6 +1,8 @@
 
 
 
+using Magic.MagicTypes;
+
 namespace Magic
 {
 

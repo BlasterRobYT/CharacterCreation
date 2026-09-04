@@ -17,7 +17,7 @@ public class BattleSystem
     public Character Hero;
     public Character Enemy;
     public Dictionary<string, Weapon> WeaponList { get; set; }
-    static extern PlayerInput_1 PlayerSelection1();
+    public PlayerInput PlayerSelection1();
 
     public BattleSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
     {
@@ -73,7 +73,7 @@ public class BattleSystem
                 // Do the Action player inputs
                 if (choice == "1")
                 {
-                    Console.WriteLine();
+                   while (choice == "1")
                     PlayerSelection1();
                 }
                 else if (choice == "2")
