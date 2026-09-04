@@ -1,6 +1,7 @@
 ## 9/4/26
--Moved allMagicTypes into it's correct code block
--Damage Type added to MagicType
+-Moved allMagicTypes into it's correct code block.\
+-Damage Type added to MagicType.\
+-Created PlayerSelection1
 
 ## 9/2/26
 # Major
