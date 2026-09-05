@@ -1,10 +1,15 @@
 using System.Dynamic;
+using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
-using CharacterCreation.BattleSystem;
-namespace CharacterCreation.PlayerSelection
+using CharacterCreation.BattleSystem.BattleSystem;
+using CharacterCreation;
+using CharacterCreation.Characters;
+using System.Runtime.InteropServices.Marshalling;
+
+namespace CharacterCreation.BattleSystem.PlayerSelection
 {
     
-    public static class PlayerInput
+    public class PlayerInput
         {
 
 
@@ -22,12 +27,16 @@ namespace CharacterCreation.PlayerSelection
 
                 if (choice == "1")
                 {
-                    BattlerSystem.HeroAttack();
+                    //hero attack will go here
                 }
 
+                if (choice == "2")
+                {
+                    //magic selection will happen here when complete
+                }
                 if (choice == "3")
                 {
-                    
+                   //Go back to the previous prompt. 
                 }
             }
 

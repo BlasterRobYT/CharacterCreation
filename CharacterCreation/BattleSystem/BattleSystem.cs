@@ -1,15 +1,15 @@
 using System;
 using System.Runtime.CompilerServices;
-using CharacterCreation;
 using CharacterCreation.Characters;
 using CharacterCreation.Weapons;
-using CharacterCreation.PlayerSelection;
+using CharacterCreation.BattleSystem.PlayerSelection;
+using System.Security.Cryptography.X509Certificates;
 
 
 
 
-namespace CharacterCreation.BattleSystem;
-public class BattlerSystem
+namespace CharacterCreation.BattleSystem.BattleSystem;
+public class BattleSystem
 {
     //Creating the battle system
 
@@ -18,7 +18,7 @@ public class BattlerSystem
     public Character Enemy;
     public Dictionary<string, Weapon> WeaponList { get; set; }
 
-    public BattlerSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
+    public BattleSystem(Character hero,Character enemy, Dictionary<string, Weapon> weapons)
     {
         Hero = hero;
         Enemy = enemy;
@@ -72,7 +72,6 @@ public class BattlerSystem
                 // Do the Action player inputs
                 if (choice == "1")
                 {
-                   while (choice == "1")
                     PlayerInput.PlayerSelection1();
                 }
                 else if (choice == "2")
