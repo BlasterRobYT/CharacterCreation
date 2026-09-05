@@ -174,7 +174,7 @@ public class BattleSystem
                 Console.WriteLine(" whiffed!");
             }
             
-            if (Enemy.Health < 0)
+            if (Enemy.Health <= 0)
             {
                 Enemy.Health = 0;
             }
