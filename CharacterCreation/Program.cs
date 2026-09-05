@@ -1,6 +1,6 @@
 ﻿using System;
 using CharacterCreation.Characters;
-using CharacterCreation.BattleSystem.BattleSystem;
+using CharacterCreation.BattleSystem;
 using CharacterCreation.BattleSystem.PlayerSelection;
 using CharacterCreation.Weapons;
 using Items;
@@ -126,7 +126,7 @@ namespace CharacterCreation
 
             //Start the Battle System
 
-            BattleSystem.BattleSystem.BattleSystem battle = new BattleSystem.BattleSystem.BattleSystem(hero, enemy, weaponList);
+            BattleSystem.BattleSystem battle = new BattleSystem.BattleSystem(hero, enemy, weaponList);
             battle.StartBattle();
         }
         

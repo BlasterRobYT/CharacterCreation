@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 
 
 
-namespace CharacterCreation.BattleSystem.BattleSystem;
+namespace CharacterCreation.BattleSystem;
 public class BattleSystem
 {
     //Creating the battle system
@@ -72,7 +72,7 @@ public class BattleSystem
                 // Do the Action player inputs
                 if (choice == "1")
                 {
-                    PlayerInput.PlayerSelection1();
+                    PlayerInput.PlayerSelection1(this);
                 }
                 else if (choice == "2")
                 {
