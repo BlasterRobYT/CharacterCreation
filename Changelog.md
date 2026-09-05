@@ -1,11 +1,12 @@
 ## 9/4/26
 -Moved allMagicTypes into it's correct code block.\
 -Damage Type added to MagicType.\
--Created PlayerSelection1.\
+-Created PlayerSelection1.
 
 
 To Dos:\
 -Attempting to run HeroAttack from PlayerSelection unsuccessful
+(need to learn how to use methods from other folders within the project.)
 
 ## 9/2/26
 # Major
