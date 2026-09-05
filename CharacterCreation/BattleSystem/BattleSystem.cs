@@ -136,6 +136,16 @@ public class BattleSystem
                 Console.Write(" for ");
                 WriteColored($"{damage}", ConsoleColor.Red);
                 Console.Write(" damage!");
+            
+            // Subtracting the damage from the enemy Health
+            Enemy.Health -= damage;
+
+            if (Enemy.Health <= 0)
+            {
+                Enemy.Health = 0;
+            }
+            
+
                 Console.WriteLine();
                 WriteColored(Enemy.Name, ConsoleColor.Yellow);
                 Console.Write(" now has ");
@@ -164,8 +174,7 @@ public class BattleSystem
                 Console.ReadLine();  
             };  
                
-            // Subtracting the damage from the enemy Health
-            Enemy.Health -= damage;
+
             
             //Critical Fail response
             if (damage <= 0)
@@ -174,11 +183,7 @@ public class BattleSystem
                 Console.WriteLine(" whiffed!");
             }
             
-            if (Enemy.Health <= 0)
-            {
-                Enemy.Health = 0;
-            }
-            
+
         }
             //Prints out the damage output and shows remaining
             //health of the enemy.
